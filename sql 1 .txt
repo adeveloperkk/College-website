@@ -1,0 +1,13 @@
+use test;
+create table student(
+   student_first_name VARCHAR(100) NOT NULL,
+   student_last_name VARCHAR(100) NOT NULL,
+   student_gender VARCHAR(40) NOT NULL,
+   student_percentage INT(4) NOT NULL,
+   student_email VARCHAR(100) NOT NULL,
+   student_pincode INT(7) NOT NULL,
+   student_m_number INT(11) NOT NULL,
+   student_address VARCHAR(400) NOT NULL,
+   student_addhar INT(11) NOT NULL,
+   PRIMARY KEY ( student_m_number)
+);

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          background-image: url('payment.jpg');
+          background-repeat: no-repeat;
+        background-attachment: fixed;  
+          background-size: cover;
+        }
+        </style>
+    <title>PAYMENT_FORM</title>
+</head>
+<body>
+    <form action="">
+        <h1 style="background-color: steelblue; color: white;">PAYMENT FORM </h1>
+        <h2 style="background-color: steelblue; color: white;">FILL YOUR FOLLOWING INFORMATION</h2>
+        <fieldset>
+        <legend>SOME PERSONAL DETAILS</legend>
+        <p>NAME:<input type="text" placeholder="First Name" name="sfirstname" required></p>
+        <p>CLASS:<input type="text" placeholder="class" name="sclass"></p>
+        <fieldset>    
+            <legend>SECTION</legend>
+            <p>A:<input type="radio" name="ssection" id="A" required>
+            B:<input type="radio" name="ssection" required id="B">
+            C:<input type="radio" name="ssection" required id="C">
+        </fieldset>
+        </p>
+        <p>EMAIL:<input type="email" placeholder="EX-xyz@Xmail.com" name="semail"required></p>
+        <p>MOBILE NUMBER<input type="number" placeholder="EX-9192939495" name="snumber"required></p>
+    </fieldset>
+    <fieldset>
+        <legend>CARD DETAILS</legend>
+        <p>CARD TYPE</p>
+        <select name="scard_type" id="scard_type">
+        <option value="">-----Select a card type------</option>
+        <option value="master_card">MASTER CARD</option>
+        <option value="credit card">CREDIT CARD</option>
+        <option value="debit_card">DEBIT CARD</option>
+        <option value="rupay">RUPAY</option>
+        <option value="visa">VISA</option>
+    </select>
+    <p>CARD NUMBER:<input type="number" placeholder="Card Number" name="scardnumber" required></p>
+    <p>EXPIRY DATE:<input type="date" placeholder="dd/mm/yyyy" name="sexpirydate" required></p>
+    <p>CVV:<input type="password" placeholder="Password" name="spassword" required></p>
+    </fieldset>
+    <center>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+    </center>   
+    </form>
+    <hr>
+    <hr>
+<center>
+    <a href="1.html">HOME</a>
+    <a href="payfee.html">PAY NOW</a>
+    <a href="admission.html">ADMISSION FORM</a>
+    <a href="result.html">RESULT</a>
+    <a href="https://uims.cuchd.in/uims/Login.aspx"target="_blank">OFFICIAL SITE</a><!--here blank is used to open link in new page-->
+    <a href="2.html">CONTACT US</a>
+</center>
+</body>
+</html>
